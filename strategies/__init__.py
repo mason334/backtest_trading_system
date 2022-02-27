@@ -1,0 +1,1 @@
+from . import vix_call_stock_strategy_obj
