@@ -17,3 +17,5 @@ ema1 = stock_data["Adj Close"].ewm(span=12, min_periods=12, adjust=False).mean()
 ema1true = stock_data["Adj Close"].ewm(span=12, min_periods=12, adjust=True).mean()
 ema2 = stock_data["Adj Close"].ewm(span=12, adjust=False).mean()
 stock_data.to_csv('E:\\Strategy_output\\MACD\\goog.csv')
+
+# more reference
